@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{
+  font-size: 2em;
+      font-weight: 600;
+      color:#FF00FF;
+
+      padding-bottom: 50px;
+	
+
+      text-shadow: 1px 1px 3px $shadow-color;
+}
+h2{
+  font-size: 5em;
+      font-weight: 600;
+      color: rgba(191, 84, 46, 0.9);
+      display: inline-block;
+      padding-bottom: 50px;
+	 margin: 40% auto 0 auto;
+
+      text-shadow: 1px 1px 3px $shadow-color;
+}
+
+
+$shadow-color: #23203b;
+$input-color: lighten(#AB9E95, 10%);
+$input-border-color: #5E5165;
+$button-background-color: #27AE60;
+body, input, button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+html, body {
+ padding: 50px;
+  width: 600px;
+  min-height: 600px;
+  margin: 2% auto 0 auto;
+  color:#000000;
+  background: url(http://localhost/images/Plain-Light-Blue-Background-Images.jpg)no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}</style>
+</head>
+
+<title> My shopping cart </title>
+<body>
+<p allign="left"><img src="http://localhost/images/coollogo_com-137433281.png" style="width:1000px;"></img></P>
+
+<h1><i>Welcome to your shopping cart</i></h1>
+<form action="http://localhost/login1.php" method="post">
+Email:<br>
+<input type="text" name="email">
+<br>
+password:<br>
+<input type="password" name="password">
+<br>
+<input type="submit" value="login">
+</form>
+<form action= "http://localhost/register.html"  method="post">
+<input type="submit" value="register">
+</form>
+</body>
+</html>
